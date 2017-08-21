@@ -1,0 +1,34 @@
+The Oregon trail:
+
+Main Player.  Banker / Carpenter / Farmer
+
+More 5 family names.
+
+Tombstones for dead people names.
+
+=====================================
+Trail:- define a fix trail.
+
+These landmarks include: Kansas River, Big Blue River, Fort Kearney, Chimney Rock, Fort Laramie, Independence Rock, South Pass, Fort Bridger, Green River, Soda Springs, Fort Hall, Snake River, Fort Boise, Grande Ronde Valley in the Blue Mountains, Fort Walla Walla, and The Dalles. When approaching Oregon's Willamette Valley, travelers can either float a raft through the Columbia River Gorge or take the Barlow Road.
+
+Hunting : https://codepen.io/alexhunt/pen/WQPEmx
+deer, rabbit, wild boar, bear
+
+=====================================
+Supply:- 
+200 lbs of food.
+spare parts
+clean water
+oxen
+medicine
+clothes
+100 bullets
+
+=====================================
+Calamity:-
+Snake Bite.
+Dysentry.
+measles, snakebite, dysentery, typhoid, cholera, and exhaustion.
+oxen ill
+
+=====================================
