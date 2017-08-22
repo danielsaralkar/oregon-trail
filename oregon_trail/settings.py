@@ -1,5 +1,5 @@
 """
-Django settings for {{ project_name }} project on Heroku. For more info, see:
+Django settings for oregon_trail project on Heroku. For more info, see:
 https://github.com/heroku/heroku-django-template
 
 For more information on this file, see
@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = '{{ project_name }}.urls'
+ROOT_URLCONF = 'oregon_trail.urls'
 
 TEMPLATES = [
     {
@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = '{{ project_name }}.wsgi.application'
+WSGI_APPLICATION = 'oregon_trail.wsgi.application'
 
 
 # Database
