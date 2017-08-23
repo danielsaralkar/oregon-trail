@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+}
+
+.header-container{
+    background-color: white;
+    display: inline-block;
+    padding: 0px 25px;
+    margin: auto 0px;
+}
+
+.header{
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 80px;
+    color: #28B463;
+}
+
+.header:hover{
+    color: #E74C3C;
+    font-size: 90px;
+    cursor: pointer;
+}
+
+.page{
+    background-image: url("../images/mainimage.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+.left-menu, .right-rules{
+    margin-left: 0px;
+    display: inline-block;
+    -webkit-box-shadow: 10px 10px 95px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 95px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 95px 0px rgba(0,0,0,0.75);
+    background-color: #DDDED2;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.left-menu{
+   position:top;
+}
+
+.login-open, .register-open{
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.login-open:hover, .register-open:hover{
+    background-color:  #8E8E86;
+}
+
+.options {
+    list-style-type: none;
+    padding: 7px 10px;
+}
+
+hr{
+    margin:5px;
+}
+
+
+.right-rules{
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 15px;
+}
