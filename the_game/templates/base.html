@@ -6,14 +6,20 @@
     <title>{% block title %}Base Template{% endblock %}</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display|Slabo+27px" rel="stylesheet">
+
     {% block head %}
     {% load staticfiles %}
     <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css">
     <script src="{% static 'js/main.js' %}"></script>
+    <link rel="icon" href="{% static 'images/fav.png' %}" type="image/gif">
     {% endblock %}
 </head>
 <body>
     {% block content %}
+
+    {% endblock %}
+
+    {% block form %}
 
     {% endblock %}
 </body>

@@ -1,0 +1,7 @@
+.page{
+    background-image: url("../images/mainimage2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}

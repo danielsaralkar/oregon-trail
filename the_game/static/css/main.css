@@ -72,3 +72,54 @@ hr{
     text-align: left;
     padding-top: 15px;
 }
+
+.middle-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.popup-lightbox{
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background-color:rgba(0,0,0,0.5);
+    font-size: 25px;
+    font-family: Arial;
+}
+
+.shadowed{
+    -webkit-box-shadow: 3px 3px 23px 0px rgba(50, 50, 50, 0.75);
+       -moz-box-shadow:    3px 3px 23px 0px rgba(50, 50, 50, 0.75);
+            box-shadow:         3px 3px 23px 0px rgba(50, 50, 50, 0.75);	
+   }
+
+.clickable{
+	cursor:pointer;
+}
+
+.popup{
+    background-color:white;
+    width:50%;
+    height:auto;
+}
+
+.glyphicon-remove{
+    position: absolute;
+    right:10px;
+    top: 10px;
+    color:white;
+}
+
+.popup .popup-title{
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+.popup .popup-content{
+    padding: 10px;
+    font-size: 20px;
+}
