@@ -5,3 +5,57 @@
     height: 100vh;
     text-align: center;
 }
+
+.profession-select, .player-names{
+    display: inline-block;
+}
+
+.text-names{
+    margin: 5px;
+}
+
+.game-block{
+    width: 50%;
+    height:50%;
+}
+
+.logout{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 100 px;
+    border-radius: 28px;
+    border: 1px solid #18ab29;
+    background-color: #18ab29;
+}
+
+.logout:hover{
+    background-color: #2f6627;
+}
+
+.main-container{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: brown;
+    padding: 20px;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.main-container .title{
+    font-size: 25px;
+    color: white;
+}
+
+.main-container .profession{
+    font-size: 18px;
+    color: white;
+}
+

@@ -1,8 +1,10 @@
+from django.core.exceptions import ObjectDoesNotExist
 from django.shortcuts import render, redirect
 from django.http import HttpResponse, HttpResponseRedirect
 from django.contrib.auth import login, authenticate, logout
 from django.contrib.auth.forms import UserCreationForm
 from .forms import SignUpForm
+from .models import Family_Names, Calamities, Profession, Supplies
 
 
 # Create your views here.
@@ -28,7 +30,10 @@ def register(request):
 def home_page(request):
     if request.user.is_authenticated():
         current_user = request.user
-        print("hello" + current_user.first_name)
-        return render(request, 'home.html', {"status": "SUCCESS","name":current_user})
+        try:
+            profession = Profession.objects.all()
+            return render(request, 'home.html', {"status": "success","name":current_user, "professions":profession})
+        except ObjectDoesNotExist as e:
+            return render(request, 'home.html', {"status": "fail","name":current_user})
     else:
         return HttpResponseRedirect("/")

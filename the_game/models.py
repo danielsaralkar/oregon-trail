@@ -10,7 +10,7 @@ class Family_Names(models.Model):
     family4 = models.CharField(max_length=100, default="Friend 4")
 
     def _str_(self):
-        return self.title
+        return self.user_id
 
 class Calamities(models.Model):
     calamity = models.CharField(max_length=100)

@@ -11,7 +11,28 @@
 
 
 {% block content %}
+<a href="{% url 'logout' %}"><button class="logout clickable">Logout</button></a>
 <div class="page">
-    
+    <div class="main-container">
+        <div class="part1">
+            <div class="title">Welcome {{ name }}, Lets Play!</div>
+            <div class="profession">
+                Select One of the following professions to play with(Hover over each of them to find their description):
+                <div class="image-container">
+                    <img src="../static/images/banker.gif" class="img-rounded clickable" alt="Banker" width="300" height="300" data="1600"/>
+                    <img src="../static/images/carpenter.png" class="img-rounded clickable" alt="Carpenter" width="300" height="300" data="1200"/>
+                    <img src="../static/images/farmer.jpg" class="img-rounded clickable" alt="Farmer" width="300" height="300" data="800"/>
+                </div>
+            </div>
+            <button class="advance">Advance</button>
+        </div>
+        <div class="part2" style="display:none;">
+            <div class="title">To Start with the Journey you need supplies</div>
+            <div class="profession">
+                Select Quantity you want for following items:
+                
+            </div>
+        </div>
+    </div>
 </div>
 {% endblock %}
